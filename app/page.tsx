@@ -69,7 +69,8 @@ export default function HomePage() {
                   href="https://docs.google.com/forms/d/e/1FAIpQLSc22Yye4tbdHZyXrcdD5fOuL8sJ7lGktDA19TZqe7KH9UiPbw/viewform?usp=sharing&ouid=101945467659027573624"
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-2xl bg-[#f5d76e] px-6 py-3 font-semibold text-[#081225] transition hover:opacity-90"
+                  className="inline-flex items-center justify-center rounded-2xl bg-[#f5d76e] px-6 py-3 font-semibold transition hover:opacity-90"
+                  style={{ color: "#081225" }}
                 >
                   Start Your Project
                 </a>
@@ -271,20 +272,20 @@ export default function HomePage() {
                     </div>
                   </div>
 
-                  <div className="grid gap-4 sm:grid-cols-2">
+                  <div className="grid grid-cols-2 gap-4">
                     {project.images.map((image, index) => (
                       <div
                         key={image}
                         className={`overflow-hidden rounded-2xl border border-[#f5d76e]/15 bg-[#0d1a33] ${
-                          project.images.length % 2 !== 0 && index === 0
-                            ? "sm:col-span-2"
-                            : ""
+                          index === 0 ? "col-span-2" : ""
                         }`}
                       >
                         <img
                           src={image}
                           alt={`${project.title} screenshot ${index + 1}`}
-                          className="h-full w-full object-cover"
+                          className={`w-full object-cover ${
+                            index === 0 ? "h-64 md:h-72" : "h-44 md:h-48"
+                          }`}
                         />
                       </div>
                     ))}
@@ -444,7 +445,8 @@ export default function HomePage() {
               href="https://docs.google.com/forms/d/e/1FAIpQLSc22Yye4tbdHZyXrcdD5fOuL8sJ7lGktDA19TZqe7KH9UiPbw/viewform?usp=sharing&ouid=101945467659027573624"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex rounded-2xl bg-[#f5d76e] px-6 py-3 font-semibold text-[#081225] transition hover:opacity-90"
+              className="inline-flex items-center justify-center rounded-2xl bg-[#f5d76e] px-6 py-3 font-semibold transition hover:opacity-90"
+              style={{ color: "#081225" }}
             >
               Start Your Project
             </a>
