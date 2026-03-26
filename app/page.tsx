@@ -273,19 +273,15 @@ export default function HomePage() {
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
-                    {project.images.map((image, index) => (
+                    {project.images.map((image) => (
                       <div
                         key={image}
-                        className={`overflow-hidden rounded-2xl border border-[#f5d76e]/15 bg-[#0d1a33] ${
-                          index === 0 ? "col-span-2" : ""
-                        }`}
+                        className="overflow-hidden rounded-2xl border border-[#f5d76e]/15 bg-[#0d1a33] aspect-[16/10]"
                       >
                         <img
                           src={image}
-                          alt={`${project.title} screenshot ${index + 1}`}
-                          className={`w-full object-cover ${
-                            index === 0 ? "h-64 md:h-72" : "h-44 md:h-48"
-                          }`}
+                          alt={`${project.title} screenshot`}
+                          className="h-full w-full object-cover"
                         />
                       </div>
                     ))}
