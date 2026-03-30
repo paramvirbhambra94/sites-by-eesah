@@ -20,10 +20,7 @@ export default function HomePage() {
       description:
         "An Islamic web app built with both frontend and backend functionality, featuring Quran access and useful information related to deen.",
       tags: ["Frontend + Backend", "Islamic App", "Content Platform"],
-      images: [
-        "/portfolio/projectnur-1.png",
-        "/portfolio/projectnur-2.png",
-      ],
+      images: ["/portfolio/projectnur-1.png", "/portfolio/projectnur-2.png"],
     },
     {
       title: "JSE Academic",
@@ -31,10 +28,7 @@ export default function HomePage() {
       description:
         "An education agency website built with frontend and backend functionality to present services, information, and a more professional online presence.",
       tags: ["Frontend + Backend", "Education", "Agency Website"],
-      images: [
-        "/portfolio/jseacademic-1.png",
-        "/portfolio/jseacademic-2.png",
-      ],
+      images: ["/portfolio/jseacademic-1.png", "/portfolio/jseacademic-2.png"],
     },
   ];
 
@@ -61,7 +55,8 @@ export default function HomePage() {
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[#f5d76e]/80">
                 Sites By Eesah creates clean, custom websites for businesses that want a modern
-                and professional online presence, with collaboration and clarity throughout the build.
+                and professional online presence, with collaboration and clarity throughout the
+                build.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-4">
@@ -208,15 +203,16 @@ export default function HomePage() {
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
               <h3 className="text-xl font-semibold text-[#f5d76e]">Frontend Website</h3>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                Clean, modern custom websites focused on layout, design, responsiveness, and presentation.
+                Clean, modern custom websites focused on layout, design, responsiveness, and
+                presentation.
               </p>
             </div>
 
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
               <h3 className="text-xl font-semibold text-[#f5d76e]">Frontend + Backend Website</h3>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                Custom websites with added functionality such as forms, databases, account features,
-                or other tailored elements depending on your needs.
+                Custom websites with added functionality such as forms, databases, account
+                features, or other tailored elements depending on your needs.
               </p>
             </div>
 
@@ -256,9 +252,7 @@ export default function HomePage() {
                     <h3 className="mt-3 text-2xl font-semibold text-[#f5d76e] md:text-3xl">
                       {project.title}
                     </h3>
-                    <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                      {project.description}
-                    </p>
+                    <p className="mt-4 leading-8 text-[#f5d76e]/75">{project.description}</p>
 
                     <div className="mt-6 flex flex-wrap gap-3">
                       {project.tags.map((tag) => (
@@ -276,7 +270,7 @@ export default function HomePage() {
                     {project.images.map((image) => (
                       <div
                         key={image}
-                        className="overflow-hidden rounded-2xl border border-[#f5d76e]/15 bg-[#0d1a33] aspect-[16/10]"
+                        className="aspect-[16/10] overflow-hidden rounded-2xl border border-[#f5d76e]/15 bg-[#0d1a33]"
                       >
                         <img
                           src={image}
@@ -297,66 +291,179 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6 py-20">
           <p className="text-sm uppercase tracking-[0.2em] text-[#f5d76e]/55">Pricing</p>
           <h2 className="mt-4 text-3xl font-bold text-[#f5d76e] md:text-4xl">
-            Simple pricing, based on scope
+            Pricing built around your project
           </h2>
-          <p className="mt-4 max-w-2xl leading-8 text-[#f5d76e]/75">
-            Every project is priced based on the overall scope, complexity, and features required.
+          <p className="mt-4 max-w-3xl leading-8 text-[#f5d76e]/75">
+            Every website is different, so the final cost depends on the number of pages,
+            features, design complexity, and any custom functionality required. Below are my
+            starting prices to give you a clear idea of what to expect.
           </p>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
-              <h3 className="text-xl font-semibold text-[#f5d76e]">Frontend Only</h3>
-              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">£300–£800</p>
+              <h3 className="text-xl font-semibold text-[#f5d76e]">Starter Website</h3>
+              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £300</p>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                For clients who need a modern custom website focused on design, layout,
-                responsiveness, and presentation.
+                A simple, clean, and professional website for businesses that need a strong online
+                presence. Perfect for getting your business online with a modern design that looks
+                great on all devices.
               </p>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Includes
+                </p>
+                <ul className="mt-4 space-y-2 text-[#f5d76e]/75">
+                  <li>• up to 3 pages</li>
+                  <li>• custom design</li>
+                  <li>• mobile responsive layout</li>
+                  <li>• contact form</li>
+                  <li>• basic SEO setup</li>
+                  <li>• fast and modern build</li>
+                </ul>
+              </div>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Best for
+                </p>
+                <p className="mt-3 text-[#f5d76e]/75">
+                  small businesses, freelancers, startups, and local services
+                </p>
+              </div>
             </div>
 
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
-              <h3 className="text-xl font-semibold text-[#f5d76e]">Frontend + Backend</h3>
-              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">£500–£1000</p>
+              <h3 className="text-xl font-semibold text-[#f5d76e]">Business Website</h3>
+              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £600</p>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                For clients who need a website with added functionality and more tailored features.
+                A more polished and detailed website for businesses that want to showcase their
+                services more effectively and create a stronger impression online. Ideal for
+                businesses that need more content, more structure, and a more refined design.
               </p>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Includes
+                </p>
+                <ul className="mt-4 space-y-2 text-[#f5d76e]/75">
+                  <li>• up to 5 pages</li>
+                  <li>• custom design tailored to your brand</li>
+                  <li>• mobile responsive layout</li>
+                  <li>• contact or enquiry forms</li>
+                  <li>• service sections, testimonials, and FAQs</li>
+                  <li>• basic SEO setup</li>
+                  <li>• modern, professional design throughout</li>
+                </ul>
+              </div>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Best for
+                </p>
+                <p className="mt-3 text-[#f5d76e]/75">
+                  growing businesses that want a stronger and more professional online presence
+                </p>
+              </div>
             </div>
 
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
               <h3 className="text-xl font-semibold text-[#f5d76e]">Premium Website</h3>
-              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">£800–£1200</p>
+              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £1000</p>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                For clients looking for a more advanced custom build, including more complex features
-                or AI-powered functions.
+                A fully custom website designed for businesses that want a premium online presence
+                with advanced functionality and a more tailored user experience. Built to stand
+                out, perform well, and support long-term growth.
               </p>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Includes
+                </p>
+                <ul className="mt-4 space-y-2 text-[#f5d76e]/75">
+                  <li>• fully custom design</li>
+                  <li>• advanced layouts and custom sections</li>
+                  <li>• frontend and backend functionality where needed</li>
+                  <li>• advanced forms or interactive features</li>
+                  <li>• performance-focused build</li>
+                  <li>• premium user experience</li>
+                  <li>• scalable structure for future growth</li>
+                </ul>
+              </div>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Best for
+                </p>
+                <p className="mt-3 text-[#f5d76e]/75">
+                  established businesses, premium brands, and custom projects needing more
+                  advanced features
+                </p>
+              </div>
             </div>
 
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
-              <h3 className="text-xl font-semibold text-[#f5d76e]">Maintenance</h3>
-              <p className="mt-3 text-lg font-semibold text-[#f5d76e]">6 months: £200</p>
-              <p className="mt-1 text-lg font-semibold text-[#f5d76e]">1 year: £400</p>
+              <h3 className="text-xl font-semibold text-[#f5d76e]">Website Maintenance</h3>
+              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £200</p>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                Ongoing support and future check-ins after launch.
+                Ongoing support to keep your website updated, running smoothly, and performing at
+                its best after launch.
               </p>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Packages
+                </p>
+                <ul className="mt-4 space-y-2 text-[#f5d76e]/75">
+                  <li>• 6 Months — £200</li>
+                  <li>• 12 Months — £400</li>
+                </ul>
+              </div>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Can include
+                </p>
+                <ul className="mt-4 space-y-2 text-[#f5d76e]/75">
+                  <li>• content updates</li>
+                  <li>• bug fixes</li>
+                  <li>• small design changes</li>
+                  <li>• general support</li>
+                  <li>• performance checks</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div className="mt-10 rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
-            <h3 className="text-xl font-semibold text-[#f5d76e]">Payment Terms</h3>
-            <p className="mt-4 leading-8 text-[#f5d76e]/75">
-              A 50% deposit is required before work begins. The remaining 50% is due on completion
-              before final handover, launch, or transfer of the website.
-            </p>
-            <p className="mt-4 leading-8 text-[#f5d76e]/60">
-              Final pricing depends on the agreed project scope. Extra revisions, additional pages,
-              or new features requested outside the agreed plan may be quoted separately.
-            </p>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
+              <h3 className="text-xl font-semibold text-[#f5d76e]">Extra Pages</h3>
+              <p className="mt-3 text-2xl font-bold text-[#f5d76e]">From £50 per page</p>
+              <p className="mt-4 leading-8 text-[#f5d76e]/75">
+                Need more pages added to your website? Extra pages can be included based on your
+                project requirements.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
+              <h3 className="text-xl font-semibold text-[#f5d76e]">Note</h3>
+              <p className="mt-4 leading-8 text-[#f5d76e]/75">
+                Final pricing may vary depending on project scope, number of pages, custom
+                features, integrations, and revisions outside the agreed scope.
+              </p>
+              <p className="mt-4 leading-8 text-[#f5d76e]/60">
+                For an exact quote, feel free to get in touch.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section>
         <div className="mx-auto max-w-7xl px-6 py-20">
-          <p className="text-sm uppercase tracking-[0.2em] text-[#f5d76e]/55">Clear Expectations</p>
+          <p className="text-sm uppercase tracking-[0.2em] text-[#f5d76e]/55">
+            Clear Expectations
+          </p>
           <h2 className="mt-4 text-3xl font-bold text-[#f5d76e] md:text-4xl">
             What I do and what I don’t do
           </h2>
@@ -365,18 +472,19 @@ export default function HomePage() {
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
               <h3 className="text-xl font-semibold text-[#f5d76e]">What I do</h3>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                I design and build custom websites based on your business, brand, and preferred style.
-                This includes working with you on layout, sections, features, and overall look and feel,
-                while checking in throughout the process to make sure everything is aligned.
+                I design and build custom websites based on your business, brand, and preferred
+                style. This includes working with you on layout, sections, features, and overall
+                look and feel, while checking in throughout the process to make sure everything is
+                aligned.
               </p>
             </div>
 
             <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
               <h3 className="text-xl font-semibold text-[#f5d76e]">What I don’t do</h3>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                Sites By Eesah focuses on building the website itself. SEO, marketing, advertising,
-                and wider business growth services are not included unless clearly stated. Once your
-                website is complete, how it is marketed and grown is up to you.
+                Sites By Eesah focuses on building the website itself. SEO, marketing,
+                advertising, and wider business growth services are not included unless clearly
+                stated. Once your website is complete, how it is marketed and grown is up to you.
               </p>
             </div>
           </div>
@@ -428,13 +536,15 @@ export default function HomePage() {
 
       <section id="contact">
         <div className="mx-auto max-w-5xl px-6 py-24 text-center">
-          <p className="text-sm uppercase tracking-[0.2em] text-[#f5d76e]/55">Start Your Project</p>
+          <p className="text-sm uppercase tracking-[0.2em] text-[#f5d76e]/55">
+            Start Your Project
+          </p>
           <h2 className="mt-4 text-3xl font-bold text-[#f5d76e] md:text-5xl">
             Ready to bring your website idea to life?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#f5d76e]/75">
-            If you already know the kind of website you want, let’s turn that vision into something
-            clean, modern, and built around your brand.
+            If you already know the kind of website you want, let’s turn that vision into
+            something clean, modern, and built around your brand.
           </p>
           <div className="mt-8">
             <a
@@ -461,12 +571,24 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-wrap gap-4 text-sm text-[#f5d76e]/65">
-            <a href="#about" className="transition hover:text-[#f5d76e]">About</a>
-            <a href="#process" className="transition hover:text-[#f5d76e]">How It Works</a>
-            <a href="#services" className="transition hover:text-[#f5d76e]">Services</a>
-            <a href="#portfolio" className="transition hover:text-[#f5d76e]">Portfolio</a>
-            <a href="#pricing" className="transition hover:text-[#f5d76e]">Pricing</a>
-            <a href="#faq" className="transition hover:text-[#f5d76e]">FAQ</a>
+            <a href="#about" className="transition hover:text-[#f5d76e]">
+              About
+            </a>
+            <a href="#process" className="transition hover:text-[#f5d76e]">
+              How It Works
+            </a>
+            <a href="#services" className="transition hover:text-[#f5d76e]">
+              Services
+            </a>
+            <a href="#portfolio" className="transition hover:text-[#f5d76e]">
+              Portfolio
+            </a>
+            <a href="#pricing" className="transition hover:text-[#f5d76e]">
+              Pricing
+            </a>
+            <a href="#faq" className="transition hover:text-[#f5d76e]">
+              FAQ
+            </a>
           </div>
 
           <div className="text-sm text-[#f5d76e]/55">
