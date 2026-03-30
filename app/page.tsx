@@ -330,7 +330,7 @@ export default function HomePage() {
                   Best for
                 </p>
                 <p className="mt-3 text-[#f5d76e]/75">
-                  small businesses, freelancers, startups, and local services
+                  Small businesses, freelancers, startups, and local services
                 </p>
               </div>
             </div>
@@ -366,7 +366,7 @@ export default function HomePage() {
                   Best for
                 </p>
                 <p className="mt-3 text-[#f5d76e]/75">
-                  growing businesses that want a stronger and more professional online presence
+                  Growing businesses that want a stronger and more professional online presence
                 </p>
               </div>
             </div>
@@ -402,7 +402,7 @@ export default function HomePage() {
                   Best for
                 </p>
                 <p className="mt-3 text-[#f5d76e]/75">
-                  established businesses, premium brands, and custom projects needing more
+                  Established businesses, premium brands, and custom projects needing more
                   advanced features
                 </p>
               </div>
@@ -446,7 +446,7 @@ export default function HomePage() {
                   Best for
                 </p>
                 <p className="mt-3 text-[#f5d76e]/75">
-                  businesses that want reliable support after launch
+                  Businesses that want reliable support after launch
                 </p>
               </div>
             </div>
