@@ -299,15 +299,17 @@ export default function HomePage() {
             starting prices to give you a clear idea of what to expect.
           </p>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
-              <h3 className="text-xl font-semibold text-[#f5d76e]">Starter Website</h3>
-              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £300</p>
-              <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                A simple, clean, and professional website for businesses that need a strong online
-                presence. Perfect for getting your business online with a modern design that looks
-                great on all devices.
-              </p>
+          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-2">
+            <div className="flex h-full flex-col rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
+              <div>
+                <h3 className="text-xl font-semibold text-[#f5d76e]">Starter Website</h3>
+                <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £300</p>
+                <p className="mt-4 leading-8 text-[#f5d76e]/75">
+                  A simple, clean, and professional website for businesses that need a strong online
+                  presence. Perfect for getting your business online with a modern design that looks
+                  great on all devices.
+                </p>
+              </div>
 
               <div className="mt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
@@ -323,7 +325,7 @@ export default function HomePage() {
                 </ul>
               </div>
 
-              <div className="mt-6">
+              <div className="mt-auto pt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
                   Best for
                 </p>
@@ -333,14 +335,16 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
-              <h3 className="text-xl font-semibold text-[#f5d76e]">Business Website</h3>
-              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £600</p>
-              <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                A more polished and detailed website for businesses that want to showcase their
-                services more effectively and create a stronger impression online. Ideal for
-                businesses that need more content, more structure, and a more refined design.
-              </p>
+            <div className="flex h-full flex-col rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
+              <div>
+                <h3 className="text-xl font-semibold text-[#f5d76e]">Business Website</h3>
+                <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £600</p>
+                <p className="mt-4 leading-8 text-[#f5d76e]/75">
+                  A more polished and detailed website for businesses that want to showcase their
+                  services more effectively and create a stronger impression online. Ideal for
+                  businesses that need more content, more structure, and a more refined design.
+                </p>
+              </div>
 
               <div className="mt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
@@ -357,7 +361,7 @@ export default function HomePage() {
                 </ul>
               </div>
 
-              <div className="mt-6">
+              <div className="mt-auto pt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
                   Best for
                 </p>
@@ -367,14 +371,16 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
-              <h3 className="text-xl font-semibold text-[#f5d76e]">Premium Website</h3>
-              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £1000</p>
-              <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                A fully custom website designed for businesses that want a premium online presence
-                with advanced functionality and a more tailored user experience. Built to stand
-                out, perform well, and support long-term growth.
-              </p>
+            <div className="flex h-full flex-col rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
+              <div>
+                <h3 className="text-xl font-semibold text-[#f5d76e]">Premium Website</h3>
+                <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £1000</p>
+                <p className="mt-4 leading-8 text-[#f5d76e]/75">
+                  A fully custom website designed for businesses that want a premium online presence
+                  with advanced functionality and a more tailored user experience. Built to stand
+                  out, perform well, and support long-term growth.
+                </p>
+              </div>
 
               <div className="mt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
@@ -391,7 +397,7 @@ export default function HomePage() {
                 </ul>
               </div>
 
-              <div className="mt-6">
+              <div className="mt-auto pt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
                   Best for
                 </p>
@@ -402,13 +408,15 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
-              <h3 className="text-xl font-semibold text-[#f5d76e]">Website Maintenance</h3>
-              <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £200</p>
-              <p className="mt-4 leading-8 text-[#f5d76e]/75">
-                Ongoing support to keep your website updated, running smoothly, and performing at
-                its best after launch.
-              </p>
+            <div className="flex h-full flex-col rounded-3xl border border-[#f5d76e]/15 bg-black/20 p-8">
+              <div>
+                <h3 className="text-xl font-semibold text-[#f5d76e]">Website Maintenance</h3>
+                <p className="mt-3 text-3xl font-bold text-[#f5d76e]">From £200</p>
+                <p className="mt-4 leading-8 text-[#f5d76e]/75">
+                  Ongoing support to keep your website updated, running smoothly, and performing at
+                  its best after launch.
+                </p>
+              </div>
 
               <div className="mt-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
@@ -432,11 +440,20 @@ export default function HomePage() {
                   <li>• performance checks</li>
                 </ul>
               </div>
+
+              <div className="mt-auto pt-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#f5d76e]/55">
+                  Best for
+                </p>
+                <p className="mt-3 text-[#f5d76e]/75">
+                  businesses that want reliable support after launch
+                </p>
+              </div>
             </div>
           </div>
 
           <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
+            <div className="flex h-full flex-col rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
               <h3 className="text-xl font-semibold text-[#f5d76e]">Extra Pages</h3>
               <p className="mt-3 text-2xl font-bold text-[#f5d76e]">From £50 per page</p>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
@@ -445,7 +462,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
+            <div className="flex h-full flex-col rounded-3xl border border-[#f5d76e]/15 bg-white/[0.03] p-8">
               <h3 className="text-xl font-semibold text-[#f5d76e]">Note</h3>
               <p className="mt-4 leading-8 text-[#f5d76e]/75">
                 Final pricing may vary depending on project scope, number of pages, custom
